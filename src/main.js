@@ -1,5 +1,5 @@
 window.onload = () => {
-  const GOL = require('./lib/gol.js');
+  const GOL = require('./lib/gol');
 
   const dom = document.getElementById('gol-wrapper');
 

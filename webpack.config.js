@@ -12,14 +12,14 @@ module.exports = {
       test: /\.js$/,
       loader: 'babel-loader',
       query: {
-        presets: ['es2015']
+        presets: ['es2016']
       }
     }
     ]
   },
 
   resolve: {
-    extensions: ['', 'js']
+    extensions: ['', '.js']
   }
 
 }
